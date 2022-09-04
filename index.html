@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <script type="text/javascript" src="newbie.js"></script>
+    <link rel="stylesheet" type="text/css" href="newbie.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<body>
+    <div class="grid-container">
+        <!--**************************************** Black Small Grid ******************************************-->
+        <div class="item1">New Arrivals | Order Now</div>
+        <!--****************************************Search Logo Register Login Shop ******************************************-->
+        <div class="item3">
+            <div class="search">
+                <div class="box">
+                <i class="fas fa-search"></i>
+                <input type="search" name="search" placeholder="Search">
+                </div>
+            </div>
+            <div class="logo">
+                <img src="media/crystal.png">
+            </div>
+            <div class="log">
+                <h3><a href="#">Login</a> | <a href="#">Register</a> | <a href="#" title="Shopping bag"><i class="fas fa-shopping-cart"></i></a></h3>
+            </div>
+        </div>
+        <!--****************************************** Sticky Categories Menu****************************************-->
+        <div class="item2">
+                <ul>
+                    <li><a href="#"><h3>New arrivals</h3></a></li>
+                    <li onmouseover="revealMenu()" onmouseout="hideMenu()"><a href="#"><h3>Living room <i class="fas fa-caret-down"></i></h3></a></li>
+                    <li><a href="#"><h3>Kitchen</h3></a></li>
+                    <li><a href="#"><h3>Bathroom</h3></a></li>
+                    <li><a href="#"><h3>Balcony</h3></a></li>
+                    <li><a href="#"><h3>Decorations</h3></a></li>
+                    <li><a href="#"><h3>Jewerly</h3></a></li>
+                </ul>
+                <!-- Mega Menu -->
+                <div class="menuparent">
+                <div class="dropmenu" id="megamenu1" onmouseover="revealMenu()" onmouseout="hideMenu()">
+                    <div class="tab1">
+                    </div>
+                    <div class="tab1">
+                        <a href="#" class="titre"><h5>Seatings</h5></a>
+                        <a href="#" class="soustitre"><h5>Accent chairs</h5></a>
+                        <a href="#" class="soustitre"><h5>Chairs and ottoman sets</h5></a>
+                        <a href="#" class="soustitre"><h5>Dinning chairs</h5></a>
+                        <a href="#" class="soustitre"><h5>Office chairs</h5></a>
+                        <a href="#" class="soustitre"><h5>Sofas</h5></a>
+                        <a href="#" class="soustitre"><h5>Bar stools</h5></a>
+                    </div>
+                    <div class="tab1">
+                        <a href="#" class="titre"><h5>Tables</h5></a>
+                        <a href="#" class="soustitre"><h5>Ottoman</h5></a>
+                        <a href="#" class="soustitre"><h5>Spanish</h5></a>
+                        <a href="#" class="soustitre"><h5>Italian</h5></a>
+                    </div>
+                    <div class="tab1">
+                        <a href="#" class="titre"><h5>Beds</h5></a>
+                        <a href="#" class="soustitre"><h5>Accent chairs</h5></a>
+                        <a href="#" class="soustitre"><h5>Chairs and ottoman sets</h5></a>
+                        <a href="#" class="soustitre"><h5>Sofas</h5></a>
+                        <a href="#" class="soustitre"><h5>Bar stools</h5></a>
+                    </div>
+                    <div class="tab1"></div>
+                </div>
+                </div>
+                <!-- End Mega Menu -->
+        </div>
+        <!--**************************************** Salon Big Image ******************************************-->
+        <div class="item4">item4</div>
+        <!--**************************************** Content of website ******************************************-->
+        <div class="item5">item5</div>
+    </div> <!-- End Grid -->
+</body>
+</html>
