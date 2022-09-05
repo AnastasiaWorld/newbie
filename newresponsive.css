@@ -188,14 +188,14 @@ body{
     }
     .row3 p{
         font-size: 8vw;
-        margin-top: -100px;
+        margin-top: -180px;
         font-family: Lato;
     }
 }
 @media only screen and (max-height: 800px){
     .row3 p{
         font-size: 8vw;
-         margin-top: -100px;
+         margin-top: -180px;
         font-family: Lato;
     }
 }
