@@ -186,16 +186,16 @@ body{
         margin-top: 3vh;
     }
     .row3 p{
-        font-size: 6vw;
+        font-size: 8vw;
          margin-top: -100px;
-        font-family: Franklin Gothic Medium;
+        font-family: arial black;
     }
 }
 @media only screen and (max-height: 800px){
     .row3 p{
-        font-size: 6vw;
+        font-size: 8vw;
         margin-top: -100px;
-        font-family: Franklin Gothic Medium;
+        font-family: arial black;
     }
 }
 
