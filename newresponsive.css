@@ -185,6 +185,9 @@ body{
     .button{
         margin-top: 3vh;
     }
+    .row3 p{
+        font-size: 6vw;
+    }
 }
 @media only screen and (max-height: 800px){
     .row3 p{
