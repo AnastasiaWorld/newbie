@@ -186,14 +186,14 @@ body{
         margin-top: 3vh;
     }
     .row3 p{
-        font-size: 10vw;
+        font-size: 20vw;
         font-weight: 800;
          margin-top: -120px;
     }
 }
 @media only screen and (max-height: 800px){
     .row3 p{
-        font-size: 10vw;
+        font-size: 20vw;
         margin-top: -120px;
         font-weight: 800;
     }
